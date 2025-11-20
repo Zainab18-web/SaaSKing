@@ -1,7 +1,8 @@
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { Link } from "wouter";
 import { ArrowRight, BarChart3, Globe, Search, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 export default function LandingPage() {
   return (
@@ -27,11 +28,11 @@ export default function LandingPage() {
             Analyze competitors, uncover high DA/PA opportunities, and supercharge your SEO strategy with our powerful extraction engine.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-            <Link href="/signup">
-              <Button size="lg" className="h-12 px-8 text-base cursor-pointer">Start Free Trial <ArrowRight className="ml-2 h-4 w-4" /></Button>
+            <Link href="/signup" className={cn(buttonVariants({ size: "lg" }), "h-12 px-8 text-base cursor-pointer")}>
+              Start Free Trial <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
-            <Link href="#features">
-              <Button variant="outline" size="lg" className="h-12 px-8 text-base cursor-pointer">View Demo</Button>
+            <Link href="#features" className={cn(buttonVariants({ variant: "outline", size: "lg" }), "h-12 px-8 text-base cursor-pointer")}>
+              View Demo
             </Link>
           </div>
         </motion.div>
