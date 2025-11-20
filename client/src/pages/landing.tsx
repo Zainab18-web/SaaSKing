@@ -50,7 +50,7 @@ export default function LandingPage() {
               <div className="w-3 h-3 rounded-full bg-yellow-400/80"></div>
               <div className="w-3 h-3 rounded-full bg-green-400/80"></div>
             </div>
-            <div className="mx-auto bg-background/50 h-6 w-96 rounded text-[10px] flex items-center justify-center text-muted-foreground font-mono">backlinkpro.app/dashboard</div>
+            <div className="mx-auto bg-background/50 h-6 w-96 rounded text-[10px] flex items-center justify-center text-muted-foreground font-mono">seo-extractor.app/dashboard</div>
           </div>
           <div className="p-8 grid gap-8">
             <div className="flex gap-4">

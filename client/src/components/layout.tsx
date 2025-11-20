@@ -17,7 +17,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4 mx-auto">
           <Link href="/" className="mr-6 flex items-center space-x-2 font-heading font-bold text-xl tracking-tight text-primary cursor-pointer hover:opacity-80 transition-opacity">
             <Zap className="h-6 w-6 fill-primary/20" />
-            <span>BacklinkPro</span>
+            <span>SEO & Backlinks Extractor</span>
           </Link>
           
           <nav className="flex items-center gap-4">

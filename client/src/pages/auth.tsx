@@ -34,7 +34,7 @@ export default function AuthPage() {
       <div className="w-full max-w-md space-y-6 relative z-10">
         <div className="text-center space-y-2">
           <Link href="/" className="inline-flex items-center gap-2 font-heading font-bold text-2xl text-primary cursor-pointer hover:opacity-80 transition-opacity">
-            <Zap className="h-6 w-6 fill-primary/20" /> BacklinkPro
+            <Zap className="h-6 w-6 fill-primary/20" /> SEO & Backlinks Extractor
           </Link>
           <p className="text-muted-foreground">Access your SEO dashboard</p>
         </div>
