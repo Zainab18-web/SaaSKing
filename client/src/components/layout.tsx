@@ -21,6 +21,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
           </Link>
           
           <nav className="flex items-center gap-4">
+            <Link href="/pricing" className={cn(buttonVariants({ variant: "ghost", size: "sm" }), "hidden md:flex")}>
+              Pricing
+            </Link>
             {user ? (
               <>
                 <div className="hidden md:flex items-center gap-2 text-sm text-muted-foreground bg-secondary/50 px-3 py-1 rounded-full border border-border/50">

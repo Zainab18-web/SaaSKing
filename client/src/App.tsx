@@ -8,6 +8,7 @@ import { Layout } from "@/components/layout";
 import LandingPage from "@/pages/landing";
 import AuthPage from "@/pages/auth";
 import Dashboard from "@/pages/dashboard";
+import PricingPage from "@/pages/pricing";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -18,6 +19,7 @@ function Router() {
         <Route path="/login" component={AuthPage} />
         <Route path="/signup" component={AuthPage} />
         <Route path="/dashboard" component={Dashboard} />
+        <Route path="/pricing" component={PricingPage} />
         <Route component={NotFound} />
       </Switch>
     </Layout>
